@@ -69,5 +69,37 @@ image:
     using namespace std;
   </code>
 </pre>
-
 < pre> < code> < /code> </ pre> 이용
+
+#코드 태크만 써보기
+<code>
+  #include < iostream>
+</code>
+
+
+
+#수평선 이용
+<hr/>
+< hr/>태그!
+
+#링크
+Link :[Google][googlelink]
+[googlelink]: http://google.com "Go google"
+
+#인라인 링크
+<http://google.com>
+
+#강조
+
+*hi*
+/* 글 *
+_hi_
+/_ 글 _
+**hihi**
+/** 글 **
+__hihi__
+/__ 글 __
+++hihi++
+/++ 글 ++
+~~hihi~~
+/~~ 글 ~~
