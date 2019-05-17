@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[React] 시작하기"
+title:  "[React] 기초 개념"
 date:   2019-05-16 16:04 :07
 categories: react
 tags: react
