@@ -84,7 +84,8 @@ image:
 
 
 ## props의 기본값 설정하기
-- 컴포넌트 선언이 끝난후 `Component.defaultProps= {...}`객체를 설정한다.
+- 컴포넌트 선언이 끝난후 `Component.defaultProps= {...}`객체를 설정한다.    
+
 ~~~
 class App extends React.Component{
     render(){
