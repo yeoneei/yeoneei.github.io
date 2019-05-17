@@ -2,7 +2,7 @@
 layout: post
 title:  "[React] 시작하기"
 date:   2019-05-16 00:35 :07
-categories: yeoneei first post 
+categories: react
 tags: react
 image: 
 ---
