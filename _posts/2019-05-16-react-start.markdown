@@ -27,7 +27,6 @@ image:
 - JSX
     - javascript에서 html형태로 작성할 수 있다.
     - 꼭 container element안에 포함 시켜야 한다.
-
     ~~~
     /* 에러 발생 코드 */
     render(){
@@ -94,7 +93,6 @@ class App extends React.Component{
         );
     }
 }
-
 App.defaultProps={
     value:0,
 };
@@ -102,7 +100,8 @@ App.defaultProps={
   
 - Type 검증
     - 특정 props 값이 특정 타입이 아니거나 필수 props인데 입력을 안한 경우 확인가능
-    - `Component.propTypes={...}`
+    - `Component.propTypes={...}`  
+  
 ~~~
 class App extends React.Component{
     render(){
@@ -115,7 +114,6 @@ class App extends React.Component{
         );
     }
 }
-
 App.propTypes={
     value : React.PropTypes.string,
     seoncdValue : React.PropTypes.number,
@@ -173,7 +171,7 @@ class App extends React.Component{
 
 ReactDOM.render(
   <App></App>, document.getElementById("root"));
-  ~~~
+~~~
 
 ## Component Mapping
 - 비슷한 코드를 반복해서 업데이트 하는 방법
@@ -182,8 +180,8 @@ ReactDOM.render(
 > - 데이터 렌더링 할 때 사용하는 자바스크립트 함수
 > - map()메소드는 파라미터로 전달 된 함수를 통하여 배열 내의 각 요소를 처리해서 그 결과로 새로운 배열을 생성한다.  
 > - `arr.map(callback,[thisArg])`
->   - callback : 새로운 배열의 요소를 생성하는 함수로서, 다음 세가지 인수를 가진다
+> - callback : 새로운 배열의 요소를 생성하는 함수로서, 다음 세가지 인수를 가진다
 >   - currentValue : 현재 처리되고 있는 요소
 >   - index : 현재 처리되고 있는 요소의 index값
 >   - array : 메소드가 불려진 배열
->  - thisArg(선택항목) : callback함수 내부에서 사용 할 this 값을 설정
+> - thisArg(선택항목) : callback함수 내부에서 사용 할 this 값을 설정
