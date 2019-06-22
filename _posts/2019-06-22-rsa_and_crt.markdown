@@ -1,5 +1,5 @@
 ---
-layout: RSA and CRT
+layout: post
 title:  "[알고리즘] RSA and CRT"
 date:   2019-06-22 17:58:07
 categories: algorithm
